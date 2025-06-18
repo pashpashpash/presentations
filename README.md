@@ -6,7 +6,8 @@ This repository contains my various presentations and talks.
 
 Each presentation is organized in its own folder:
 
-- `jsnation/` - JSNation presentation on How to 9,2x Your Development Speed with Cline
+- `jsnation/` - JSNation workshop on How to 9,2x Your Development Speed with Cline
+    - https://jsnation.com/#workshop-how-to-9-2x-your-development-speed-with-cline
     - The way we write code is fundamentally changing. Instead of getting stuck in nested loops and implementation details, imagine focusing purely on architecture and creative problem-solving while your AI pair programmer handles the execution. In this hands-on workshop, I'll show you how to leverage Cline (an autonomous coding agent that recently hit 1M VS Code downloads) to dramatically accelerate your development workflow through a practice we call "vibe coding" - where humans focus on high-level thinking and AI handles the implementation.You'll discover:
         - The fundamental principles of "vibe coding" and how it differs from traditional development
         - How to architect solutions at a high level and have AI implement them accurately
