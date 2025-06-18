@@ -534,6 +534,12 @@ layout: center
   </div>
 </div>
 
+<div class="absolute bottom-8 left-12 right-12 flex justify-between text-gray-400 text-sm">
+  <span>Effective Engineering with Cline</span>
+  <span>@pashmerepat</span>
+</div>
+
+
 ---
 layout: default
 ---
