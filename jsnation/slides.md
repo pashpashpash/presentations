@@ -56,7 +56,6 @@ layout: center
 clicks: 2
 ---
 
-<div class="h-16"></div>
 <div class="text-2xl font-semibold flex items-center">
   <span class="color-[#9F58FA]">Explore</span>
   <span class="text-gray-400 mx-6 font-extralight">→</span>
@@ -178,9 +177,9 @@ layout: default
 </div>
 
 <ul class="text-xl space-y-0 list-none">
-  <li class="flex items-start"><span class="mr-3">•</span>Cline generates code</li>
-  <li class="flex items-start"><span class="mr-3">•</span>Cline runs tests</li>
-  <li class="flex items-start"><span class="mr-3">•</span>Cline repeats</li>
+  <li class="flex items-start"><span class="mr-3">•</span>Apply Steps one by one</li>
+  <li class="flex items-start"><span class="mr-3">•</span>Make adjustments as needed</li>
+  <li class="flex items-start"><span class="mr-3">•</span>Commit to git and update the plan file</li>
 </ul>
 <div class="absolute bottom-8 left-12 right-12 flex justify-between text-gray-400 text-sm">
   <span>Effective Engineering with Cline</span>
@@ -241,8 +240,8 @@ layout: default
 </div>
   
 <ul class="text-xl space-y-0 list-none">
-  <li class="flex items-start"><span class="mr-3">•</span>Ask Cline to use `gh` to gather the comments on my PR into context, as well as the full diff of the files changed</li>
-  <li class="flex items-start"><span class="mr-3">•</span>Cline uses commands like `gh pr view` and `gh pr diff` to gather the context</li>
+  <li class="flex items-start"><span class="mr-3">•</span><span>Ask Cline to use <code class="bg-gray-800 text-purple-300 px-2 py-1 rounded text-sm">gh</code> to gather the comments on my PR into context, as well as the full diff of the files changed</span></li>
+  <li class="flex items-start"><span class="mr-3">•</span><span>Cline uses commands like <code class="bg-gray-800 text-purple-300 px-2 py-1 rounded text-sm">gh pr view</code> and <code class="bg-gray-800 text-purple-300 px-2 py-1 rounded text-sm">gh pr diff</code> to gather the context</span></li>
   <li class="flex items-start"><span class="mr-3">•</span>To get a better understanding of the landscape, Cline explores the surrounding files and reads them into context as well</li>
 </ul>
 <div class="absolute bottom-8 left-12 right-12 flex justify-between text-gray-400 text-sm">
@@ -296,7 +295,7 @@ layout: default
     <li class="flex items-start"><span class="mr-3">•</span>I review the changes, if they look good I toggle to Act Mode</li>
     <li class="flex items-start"><span class="mr-3">•</span>If I'm not happy with the changes, I stay in Plan Mode, and ask Cline to adjust the proposal until I'm happy</li>
   </ul>
-  <li class="flex items-start"><span class="mr-3">•</span>Cline makes changes and asks me if I want to commit them one by one with the `gh` tool.</li>
+  <li class="flex items-start"><span class="mr-3">•</span><span>Cline makes changes and asks me if I want to commit them one by one with the <code class="bg-gray-800 text-purple-300 px-2 py-1 rounded text-sm">gh</code> tool.</span></li>
 </ul>
 <div class="absolute bottom-8 left-12 right-12 flex justify-between text-gray-400 text-sm">
   <span>Effective Engineering with Cline</span>
@@ -318,7 +317,7 @@ layout: default
 <ul class="text-xl space-y-0 list-none">
   <li class="flex items-start"><span class="mr-3">•</span>Focus on the feedback that actually matters</li>
   <li class="flex items-start"><span class="mr-3">•</span>No need to get annoyed by nits anymore</li>
-  <li class="flex items-start"><span class="mr-3">•</span>Tip: Make sure you have the `gh` command installed and authenticated</li>
+  <li class="flex items-start"><span class="mr-3">•</span><span>Tip: Make sure you have the <code class="bg-gray-800 text-purple-300 px-2 py-1 rounded text-sm">gh</code> command installed and authenticated</span></li>
   <ul class="space-y-0 list-none ml-4">
     <li class="flex items-start"><span class="mr-3">•</span>Works great with agentic tools like Cline</li>
     <li class="flex items-start"><span class="mr-3">•</span>Non-interactive diff reading is a breeze</li>
@@ -443,6 +442,22 @@ layout: center
   .slidev-layout a:hover {
     color: #9F58FA !important;
   }
+  
+  /* Enhanced code styling */
+  .slidev-layout code {
+    font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Roboto Mono', 'Consolas', monospace !important;
+    font-weight: 500 !important;
+    letter-spacing: 0.025em !important;
+    border: 1px solid rgba(159, 88, 250, 0.3) !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+  }
+  
+  .slidev-layout code:hover {
+    border-color: rgba(159, 88, 250, 0.5) !important;
+    box-shadow: 0 4px 8px rgba(159, 88, 250, 0.2) !important;
+    transform: translateY(-1px) !important;
+    transition: all 0.2s ease !important;
+  }
 </style>
 
 <div class="w-128 h-128 bg-[url('/release-workflow-example.png')] bg-contain bg-no-repeat bg-center"/>
@@ -464,7 +479,7 @@ layout: default
 <ul class="text-xl space-y-0 list-none">
   <li class="flex items-start"><span class="mr-3">•</span>Workflows are a great way to automate repetitive tasks</li>
   <li class="flex items-start"><span class="mr-3">•</span>Once you make a bulletproof Workflow, share it with your team. They will be very greatful</li>
-  <li class="flex items-start"><span class="mr-3">•</span>Tip: Leverage Cline's internal tools like `read_file`, `execute_command`, and `ask_followup_question` to get the most out of your Workflow</li>
+  <li class="flex items-start"><span class="mr-3">•</span><span>Tip: Leverage Cline's internal tools like <code class="bg-gray-800 text-purple-300 px-2 py-1 rounded text-sm">read_file</code>, <code class="bg-gray-800 text-purple-300 px-2 py-1 rounded text-sm">execute_command</code>, and <code class="bg-gray-800 text-purple-300 px-2 py-1 rounded text-sm">ask_followup_question</code> to get the most out of your Workflow</span></li>
   <ul class="space-y-0 list-none ml-4">
     <li class="flex items-start"><span class="mr-3">•</span>Check out the <span class="mx-1"><a href="https://docs.cline.bot/features/slash-commands/workflows" target="_blank" class="text-[#9F58FA] no-underline hover:underline border-b-[0px] border-solid">docs</a></span> for more information</li>
     <li class="flex items-start"><span class="mr-3">•</span>... or Cline's <span class="mx-1"><a href="https://github.com/cline/prompts" target="_blank" class="text-[#9F58FA] no-underline hover:underline border-b-[0px] border-solid">prompt library</a></span> for inspiration and examples</li>
