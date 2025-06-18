@@ -4,7 +4,7 @@ This repository contains my various presentations and talks.
 
 Each presentation is organized in its own folder:
 
-- `jsnation/` - Presentation I did at JSNation, [How to 9,2x Your Development Speed with Cline](https://jsnation.com/#workshop-how-to-9-2x-your-development-speed-with-cline) | Link to [PDF Slides](/effective-engineering-with-cline.pdf)
+- `jsnation/` - Presentation I did at JSNation, [How to 9,2x Your Development Speed with Cline](https://jsnation.com/#workshop-how-to-9-2x-your-development-speed-with-cline) | [PDF](/jsnation/effective-engineering-with-cline.pdf)
 
 
 # JSNation Presentation 2025
