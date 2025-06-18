@@ -1,7 +1,5 @@
 <img width="1500" alt="Screenshot 2025-06-18 at 4 38 27 PM" src="https://github.com/user-attachments/assets/826f38bc-4a84-4310-a4a3-3e52b3cfcdc6" />
 
-
-
 A practical presentation on leveraging AI coding assistants for real-world development workflows, presented at JSNation.
 
 ## Overview
