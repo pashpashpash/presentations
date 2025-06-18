@@ -87,6 +87,6 @@ Then visit <http://localhost:3030> to view the slides.
 
 This presentation demonstrates practical, production-ready workflows for using AI coding assistants effectively. It moves beyond basic code generation to show how experienced engineers can leverage AI for complex, real-world development tasks.
 
-**Presenter**: @pashmerepat  
-**Event**: JSNation  
-**Theme**: Effective Engineering with AI Tools
+**Presenter**: [@pashmerepat](https://x.com/pashmerepat)  
+**Event**: JSNation Amsterdam 2025
+**Theme**: Effective Engineering with Cline
