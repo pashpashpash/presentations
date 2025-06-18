@@ -560,8 +560,13 @@ layout: default
     <li class="flex items-start"><span class="mr-3">•</span><span>This deck is available on my GitHub: <a href="https://github.com/pashpashpash/presentations" target="_blank" class="text-[#9F58FA] no-underline hover:underline border-b-[0px] border-solid">https://github.com/pashpashpash/presentations</a></span>
     </li>
   </ul>
-  <li class="flex items-start"><span class="mr-3">•</span>Tag us on LinkedIn or X with how you're using Cline</li>
+  <li class="flex items-start"><span class="mr-3">•</span>Tag us on <span class="mx-1"><a href="https://www.linkedin.com/company/clinebot" target="_blank" class="text-[#9F58FA] no-underline hover:underline border-b-[0px] border-solid">LinkedIn</a></span> or <span class="mx-1"><a href="https://x.com/cline" target="_blank" class="text-[#9F58FA] no-underline hover:underline border-b-[0px] border-solid">X</a></span> with how you're using Cline</li>
   <li class="flex items-start"><span class="mr-3">•</span>Feel free to reach out on Discord or X if you have any questions or feature requests</li>
   <li class="flex items-start"><span class="mr-3">•</span>We're open source and hiring, you're always welcome to contribute!</li>
 </ul>
 
+
+<div class="absolute bottom-8 left-12 right-12 flex justify-between text-gray-400 text-sm">
+  <span>Effective Engineering with Cline</span>
+  <span>@pashmerepat</span>
+</div>
