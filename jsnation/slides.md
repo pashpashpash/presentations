@@ -557,7 +557,7 @@ layout: default
 <ul class="text-sm space-y-0 list-none">
   <li class="flex items-start"><span class="mr-3">•</span>Share this with your engineering team</li>
   <ul class="space-y-0 list-none ml-4">
-    <li class="flex items-start"><span class="mr-3">•</span><span>This deck is available on my GitHub: <a href="https://github.com/pashpashpash" target="_blank" class="text-[#9F58FA] no-underline hover:underline border-b-[0px] border-solid">https://github.com/pashpashpash</a></span>
+    <li class="flex items-start"><span class="mr-3">•</span><span>This deck is available on my GitHub: <a href="https://github.com/pashpashpash/presentations" target="_blank" class="text-[#9F58FA] no-underline hover:underline border-b-[0px] border-solid">https://github.com/pashpashpash/presentations</a></span>
     </li>
   </ul>
   <li class="flex items-start"><span class="mr-3">•</span>Tag us on LinkedIn or X with how you're using Cline</li>

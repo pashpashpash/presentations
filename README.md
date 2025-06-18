@@ -1,5 +1,3 @@
-# Presentations
-
 This repository contains my various presentations and talks.
 
 ## Structure
